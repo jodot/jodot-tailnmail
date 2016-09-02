@@ -1,0 +1,22 @@
+{
+  "name": "jodot-tailnmail",
+  "version": "1.0.0",
+  "description": "Jodot duty that tails a given file continuously and sends out a mail if a given string is detected (requires Mailgun account)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jodot",
+    "tail",
+    "email",
+    "Mailgun",
+    "monitor"
+  ],
+  "author": "Vito Chin <vito@php.net> (http://www.vitochin.com)",
+  "license": "MIT",
+  "dependencies": {
+    "mailgun-js": "^0.7.11",
+    "tail": "^1.1.0"
+  }
+}
